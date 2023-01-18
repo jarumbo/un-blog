@@ -5,18 +5,26 @@ body{
     font-size: 20px;
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: beige;
 }
 #container
 {
     width: 600px;
-
+    background-color: aquamarine;
     padding: 1cm;
-    text-align: left;
+    text-align: center;
     border: 1px solid #001;
     margin: 0 auto;
 }
 #container h1
 {
     font-size: 40px;
+    font-weight: bold;
+}
+#mindset
+{
+    background-color: red;
+    width: 600 px;
+    padding: 1cm;
+    border: violet;
 }
