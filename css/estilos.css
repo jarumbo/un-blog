@@ -1,13 +1,14 @@
 body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: gray;
+    color: black;
     font-size: 20px;
     margin: 0;
     padding: 0;
     background-color: beige;
 }
-#cabecera{
+#cabecera
+{
     background: blue;
     box-shadow: 0px 2px 20px 0px;
     color: wheat;
@@ -15,7 +16,8 @@ body{
     margin: 0;
     padding: 0.5em;
 }
-#cabecera #tagline {
+#cabecera #tagline 
+{
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
@@ -24,11 +26,13 @@ body{
 #container
 {
     width: 600px;
-    background-color: aquamarine;
+    background-color: beige;
     padding: 1cm;
     text-align: center;
     border: 1px solid #001;
     margin: 0 auto;
+    padding: 0;
+   
 }
 #container h1
 {
@@ -41,4 +45,14 @@ body{
     width: 600 px;
     padding: 1cm;
     border: violet;
+    margin: 0 0 0 0;
+}
+#foot
+{
+background-color: gray;
+color: aliceblue;
+text-align: start;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0;
+padding: 1cm;
 }
