@@ -1,11 +1,11 @@
 body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: gray;
+    color: black;
     font-size: 20px;
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: black;
 }
 #cabecera{
     background: blue;
@@ -13,7 +13,8 @@ body{
     color: wheat;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
+    text-align: start;
 }
 #cabecera #tagline {
     padding: 0 0 0 1em;
@@ -23,8 +24,9 @@ body{
 }
 #container
 {
+    
     width: 600px;
-    background-color: aquamarine;
+    background-color: wheat;
     padding: 1cm;
     text-align: center;
     border: 1px solid #001;
@@ -37,8 +39,12 @@ body{
 }
 #mindset
 {
-    background-color: red;
+    background-color: orangered;
     width: 600 px;
     padding: 1cm;
     border: violet;
+}
+#cabecera #logo {
+    width: 20px;
+    vertical-align: middle;
 }
